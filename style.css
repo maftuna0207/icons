@@ -1,0 +1,32 @@
+
+.div{
+    display: flex;
+}
+.icon-1 {
+    display: none;
+    font-size: 50px;
+    animation: icon-right 3s;
+    /* animation-duration: 2300ms; */
+}
+
+.icon-2 {
+    font-size: 50px;
+    /* animation-duration: 5300ms; */
+}
+
+
+
+@keyframes icon-right {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(50px);
+        
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
