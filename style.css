@@ -1,17 +1,22 @@
-
-.div{
+.div {
     display: flex;
+    transition: 3s;
+
 }
+
 .icon-1 {
     display: none;
+
     font-size: 50px;
-    animation: icon-right 3s;
-    /* animation-duration: 2300ms; */
+    animation: icon-right 1s ;
+    transition: 0.2;
 }
+
 
 .icon-2 {
     font-size: 50px;
-    /* animation-duration: 5300ms; */
+
+
 }
 
 
@@ -21,12 +26,12 @@
         transform: translateX(0);
     }
 
-    50% {
-        transform: translateX(50px);
-        
+    10% {
+        transform: translateX(9px);
+
     }
 
-    100% {
+30% {
         transform: translateX(0);
     }
 }
